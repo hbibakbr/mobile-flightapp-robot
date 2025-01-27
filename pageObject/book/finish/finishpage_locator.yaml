@@ -1,0 +1,1 @@
+success_message: '//android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]'

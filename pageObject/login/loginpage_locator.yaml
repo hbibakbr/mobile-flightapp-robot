@@ -1,0 +1,5 @@
+email_title_field: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView2"]'
+email_field: '//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]'
+password_title_field: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView5"]'
+password_field: '//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]'
+sign_in_button: '//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]'
