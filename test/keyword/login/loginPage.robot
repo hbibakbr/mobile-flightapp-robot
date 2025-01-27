@@ -16,3 +16,7 @@ user input password
 
 user click sign in button on login page
     Click Element                    ${sign_in_button}
+
+system cannot redirect user to home page
+    Element Should Be Visible        ${email_field}
+    Element Should Be Visible        ${password_title_field}
