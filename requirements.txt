@@ -2,3 +2,4 @@ robotframework==7.0.1
 robotframework-appiumlibrary==2.1.0
 Appium-Python-Client==3.2.1
 robotframework-screencaplibrary==1.6.1
+robotframework-datadriver==1.11.2
