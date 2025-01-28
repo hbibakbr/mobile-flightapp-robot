@@ -9,7 +9,7 @@ This project focuses on practicing functional mobile automation testing on the F
 
 ## Test Cases and Demo Video
 - **Test Case, Click Here!**: https://docs.google.com/spreadsheets/d/1ApdKCiUPD21bazp0a2tqLUaMsYfxSCXr3-p0CZsMRyA/edit?gid=1379220632#gid=1379220632
-- **Demo Video Youtube, Click Here!**: 
+- **Demo Video Youtube, Click Here!**: https://youtu.be/TC6oVX2Ym2I
 
 ## Project Overview
 ### Screnshot of Fligt App
