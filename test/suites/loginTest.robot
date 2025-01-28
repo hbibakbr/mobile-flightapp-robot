@@ -16,6 +16,7 @@ ${INVALID_PASSWORD}      abc
 
 *** Test Cases ***
 Success to Login with valid credentials
+    [Tags]    regression    login    positive
     user on home page flight app and baselines is displayed
     user click sign in button on home page
     user input email        ${VALID_EMAIL}
@@ -24,6 +25,7 @@ Success to Login with valid credentials
     system should be directed to home page and username is displayed
 
 Failed to Login with ${INVALID_EMAIL} and ${VALID_PASSWORD}
+    [Tags]    regression    login    negative
     user on home page flight app and baselines is displayed
     user click sign in button on home page
     user input email        ${INVALID_EMAIL}
@@ -32,6 +34,7 @@ Failed to Login with ${INVALID_EMAIL} and ${VALID_PASSWORD}
     system cannot redirect user to home page
 
 Failed to Login with ${VALID_EMAIL} and ${INVALID_PASSWORD}
+    [Tags]    regression    login    negative
     user on home page flight app and baselines is displayed
     user click sign in button on home page
     user input email        ${VALID_EMAIL}
@@ -40,6 +43,7 @@ Failed to Login with ${VALID_EMAIL} and ${INVALID_PASSWORD}
     system cannot redirect user to home page
 
 Failed to Login with ${INVALID_EMAIL} and ${INVALID_PASSWORD}
+    [Tags]    regression    login    negative
     user on home page flight app and baselines is displayed
     user click sign in button on home page
     user input email        ${INVALID_EMAIL}

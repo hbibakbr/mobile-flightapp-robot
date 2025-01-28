@@ -15,6 +15,7 @@ ${INVALID_BOOK_CODE}    @#@$
 
 *** Test Cases ***
 Success searching a booking code
+    [Tags]    regression    search    positive
     user success login to account
     user click search button on home page
     user input booking code    ${VALID_BOOK_CODE}
@@ -22,6 +23,7 @@ Success searching a booking code
     system should display booking code
 
 Failed searching a booking code with invalid code
+    [Tags]    regression    search    negative
     user success login to account
     user click search button on home page
     user input booking code    ${INVALID_BOOK_CODE}
@@ -29,6 +31,7 @@ Failed searching a booking code with invalid code
     system cannot redirect user to search page results
 
 Failed searching a booking code with leave empty email field
+    [Tags]    regression    search    negative
     user success login to account
     user click search button on home page
     user click search button on search page

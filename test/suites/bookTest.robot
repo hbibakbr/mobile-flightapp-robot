@@ -11,6 +11,7 @@ Test Teardown               Run Keyword
 
 *** Test Cases ***
 Success book a flight ticket economy class one way
+    [Tags]    regression    book    positive
     user success login to account
     user click book button on home page
     user click departure city field
@@ -29,6 +30,7 @@ Success book a flight ticket economy class one way
     system should be displayed ${MESSAGE_SUCCESS}
 
 Success book a flight ticket first class one way
+    [Tags]    regression    book    positive
     user success login to account
     user click book button on home page
     user click departure city field
@@ -47,6 +49,7 @@ Success book a flight ticket first class one way
     system should be displayed ${MESSAGE_SUCCESS}
 
 Success book a flight ticket bussines class one way
+    [Tags]    regression    book    positive
     user success login to account
     user click book button on home page
     user click departure city field
@@ -65,6 +68,7 @@ Success book a flight ticket bussines class one way
     system should be displayed ${MESSAGE_SUCCESS}
 
 Success book a flight ticket economy class round trip
+    [Tags]    regression    book    positive
     user success login to account
     user click book button on home page
     user click round trip tab
@@ -84,6 +88,7 @@ Success book a flight ticket economy class round trip
     system should be displayed ${MESSAGE_SUCCESS}
 
 Success book a flight ticket first class round trip
+    [Tags]    regression    book    positive
     user success login to account
     user click book button on home page
     user click round trip tab
@@ -103,6 +108,7 @@ Success book a flight ticket first class round trip
     system should be displayed ${MESSAGE_SUCCESS}
 
 Success book a flight ticket bussines class round trip
+    [Tags]    regression    book    positive
     user success login to account
     user click book button on home page
     user click round trip tab
