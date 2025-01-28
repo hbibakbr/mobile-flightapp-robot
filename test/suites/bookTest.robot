@@ -1,8 +1,8 @@
 *** Settings ***
-Resource                    ../../base/base.robot
-Resource                    ../../keyword/login/loginPage.robot
-Resource                    ../../keyword/home/homePage.robot
-Resource                    ../../keyword/book/bookPage.robot
+Resource                    ../base/base.robot
+Resource                    ../keyword/login/loginPage.robot
+Resource                    ../keyword/home/homePage.robot
+Resource                    ../keyword/book/bookPage.robot
 Library                     AppiumLibrary
 Test Setup                  Run Keyword
 ...                         Open Flight Application
