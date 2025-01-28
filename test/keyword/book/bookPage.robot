@@ -8,6 +8,10 @@ Library                          AppiumLibrary
 ${MESSAGE_SUCCESS}              Your flight is booked
 
 *** Keywords ***
+user click round trip tab
+    Wait Until Element Is Visible        ${round_trip_tab}
+    Click Element                        ${round_trip_tab}
+
 user click departure city field
     Wait Until Element Is Visible        ${from_city_select_field}
     Click Element                        ${from_city_select_field}
@@ -55,6 +59,10 @@ user select end date
 user select flight type services
     Wait Until Element Is Visible        ${flight_radio_button}
     Click Element                        ${flight_radio_button}
+
+user select flight and hotel type services
+    Wait Until Element Is Visible        ${flight_hotel_radio_button}
+    Click Element                        ${flight_hotel_radio_button}
 
 user click checkbox day
     Click Element                        ${day_checkbox}

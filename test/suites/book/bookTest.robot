@@ -63,3 +63,60 @@ Success book a flight ticket bussines class one way
     user select price list
     user click confirm button
     system should be displayed ${MESSAGE_SUCCESS}
+
+Success book a flight ticket economy class round trip
+    user success login to account
+    user click book button on home page
+    user click round trip tab
+    user click departure city field
+    user select from city new york
+    user click arrival city field
+    user select to city london
+    user click class flight
+    user select economy class flight
+    user select start date
+    user select end date
+    user select flight and hotel type services
+    user click checkbox day
+    user click book button on book page
+    user select price list
+    user click confirm button
+    system should be displayed ${MESSAGE_SUCCESS}
+
+Success book a flight ticket first class round trip
+    user success login to account
+    user click book button on home page
+    user click round trip tab
+    user click departure city field
+    user select from city new york
+    user click arrival city field
+    user select to city london
+    user click class flight
+    user select first class flight
+    user select start date
+    user select end date
+    user select flight and hotel type services
+    user click checkbox day
+    user click book button on book page
+    user select price list
+    user click confirm button
+    system should be displayed ${MESSAGE_SUCCESS}
+
+Success book a flight ticket bussines class round trip
+    user success login to account
+    user click book button on home page
+    user click round trip tab
+    user click departure city field
+    user select from city new york
+    user click arrival city field
+    user select to city london
+    user click class flight
+    user select bussines class flight
+    user select start date
+    user select end date
+    user select flight and hotel type services
+    user click checkbox day
+    user click book button on book page
+    user select price list
+    user click confirm button
+    system should be displayed ${MESSAGE_SUCCESS}
