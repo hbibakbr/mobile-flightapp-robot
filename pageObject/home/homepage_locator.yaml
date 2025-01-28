@@ -1,6 +1,6 @@
 baselines: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView4"]'
 log_in_button: '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'
 username_data: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]'
-book_button: '//android.widget.Button[@resource-id="com.example.myapplication:id/button5"]'
+book_button: '//android.widget.Button[@resource-id="com.example.myapplication:id/book"]'
 search_button: '//android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]'
 home_img: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView"]'

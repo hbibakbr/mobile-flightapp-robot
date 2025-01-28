@@ -15,6 +15,10 @@ user click search button on home page
     Wait Until Element Is Visible                ${search_button}
     Click Element                                ${search_button}
 
+user click book button on home page
+    Wait Until Element Is Visible                ${book_button}
+    Click Element                                ${book_button}
+
 system should be directed to home page and username is displayed
     Wait Until Element Is Visible                ${username_data}
     Element Should Contain Text                  ${username_data}    NGen Digital
